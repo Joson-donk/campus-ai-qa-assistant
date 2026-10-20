@@ -145,3 +145,7 @@
     frontend/src/components/{ChatInput,ChatMessage,DocTable,SourceList,StatCards,StateBlock,UploadBox}.vue
 
 > 各模块的详细「文件清单 + 一句话职责 + 关键入口 + 跨模块依赖」见对应目录下的 README.md。
+
+## 代码评审
+
+所有改动都通过 Pull Request 提交，至少 1 名组员审核通过后才能合并到 main。详细步骤见 [CONTRIBUTING.md](CONTRIBUTING.md)。
