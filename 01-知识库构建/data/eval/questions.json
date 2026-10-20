@@ -1,0 +1,25 @@
+{
+  "_comment": "分块策略对比实验（D9）的真实测试题库模板。把 data/raw 的真实文档入库后，按实际文件名与原文表述改写 expect_sources / expect_keywords，至少 20 道题，并保留 3 道以上 out_of_scope 题用于验证拒答。运行：python scripts/eval_chunking.py --dir data/raw --questions data/eval/questions.json",
+  "version": 1,
+  "questions": [
+    {
+      "no": 1,
+      "question": "选课系统什么时候开放？",
+      "expect_sources": ["选课管理办法"],
+      "expect_keywords": ["【按原文填写】"]
+    },
+    {
+      "no": 2,
+      "question": "毕业需要修满多少学分？",
+      "expect_sources": ["培养方案", "学位授予"],
+      "expect_keywords": ["【按原文填写具体学分数】"]
+    },
+    {
+      "no": 3,
+      "question": "食堂几点关门？",
+      "expect_sources": [],
+      "expect_keywords": [],
+      "out_of_scope": true
+    }
+  ]
+}

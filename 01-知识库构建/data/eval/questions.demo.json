@@ -1,0 +1,147 @@
+{
+  "_comment": "分块策略对比实验用的测试题（配合 data/demo 合成样例）。真实数据入库后请复制本文件为 questions.json 并按实际文档改写 expect_sources 与 expect_keywords。",
+  "version": 1,
+  "questions": [
+    {
+      "no": 1,
+      "question": "第一学期选课什么时候开始？",
+      "expect_sources": ["选课管理办法"],
+      "expect_keywords": ["开学前两周", "八时", "二十二时"]
+    },
+    {
+      "no": 2,
+      "question": "补退选安排在什么时间？",
+      "expect_sources": ["选课管理办法"],
+      "expect_keywords": ["第一周", "补退选"]
+    },
+    {
+      "no": 3,
+      "question": "退课之后这门课还算学分吗？",
+      "expect_sources": ["选课管理办法"],
+      "expect_keywords": ["不计入", "学分"]
+    },
+    {
+      "no": 4,
+      "question": "本科生每学期最多能修多少学分？",
+      "expect_sources": ["选课管理办法"],
+      "expect_keywords": ["三十学分", "十五学分"]
+    },
+    {
+      "no": 5,
+      "question": "超过学分上限修读需要什么审批？",
+      "expect_sources": ["选课管理办法"],
+      "expect_keywords": ["教学副院长", "教务处", "备案"]
+    },
+    {
+      "no": 6,
+      "question": "新生第一学期需要自己选课吗？",
+      "expect_sources": ["选课管理办法"],
+      "expect_keywords": ["预置", "无需"]
+    },
+    {
+      "no": 7,
+      "question": "新生不能按期入学最多可以请假多久？",
+      "expect_sources": ["学籍管理规定"],
+      "expect_keywords": ["两周", "请假"]
+    },
+    {
+      "no": 8,
+      "question": "休学一次最长多久，累计不能超过几年？",
+      "expect_sources": ["学籍管理规定"],
+      "expect_keywords": ["一年", "两年"]
+    },
+    {
+      "no": 9,
+      "question": "转专业需要满足什么成绩条件？",
+      "expect_sources": ["学籍管理规定"],
+      "expect_keywords": ["前百分之三十", "满一年"]
+    },
+    {
+      "no": 10,
+      "question": "哪些情况不允许转专业？",
+      "expect_sources": ["学籍管理规定"],
+      "expect_keywords": ["特殊类型", "休学", "纪律处分"]
+    },
+    {
+      "no": 11,
+      "question": "本科最长修业年限是几年？",
+      "expect_sources": ["学籍管理规定"],
+      "expect_keywords": ["标准学制", "两年"]
+    },
+    {
+      "no": 12,
+      "question": "对退学处理有异议该怎么申诉，期限多久？",
+      "expect_sources": ["学籍管理规定"],
+      "expect_keywords": ["申诉", "五个工作日"]
+    },
+    {
+      "no": 13,
+      "question": "毕业一共需要修满多少学分？",
+      "expect_sources": ["毕业与学位授予"],
+      "expect_keywords": ["一百六十五学分"]
+    },
+    {
+      "no": 14,
+      "question": "通识教育课程至少需要多少学分？",
+      "expect_sources": ["毕业与学位授予"],
+      "expect_keywords": ["四十学分"]
+    },
+    {
+      "no": 15,
+      "question": "授予学士学位对绩点有什么要求？",
+      "expect_sources": ["毕业与学位授予"],
+      "expect_keywords": ["二点零", "平均学分绩点"]
+    },
+    {
+      "no": 16,
+      "question": "毕业论文查重率不能超过多少？",
+      "expect_sources": ["毕业与学位授予"],
+      "expect_keywords": ["百分之二十", "百分之三十"]
+    },
+    {
+      "no": 17,
+      "question": "结业后多久内可以申请换发毕业证书？",
+      "expect_sources": ["毕业与学位授予"],
+      "expect_keywords": ["两年", "结业"]
+    },
+    {
+      "no": 18,
+      "question": "国家奖学金每年多少钱？",
+      "expect_sources": ["奖助学金评定办法"],
+      "expect_keywords": ["八千元"]
+    },
+    {
+      "no": 19,
+      "question": "国家助学金分几个等级，各是多少钱？",
+      "expect_sources": ["奖助学金评定办法"],
+      "expect_keywords": ["四千五百元", "三千五百元", "二千五百元"]
+    },
+    {
+      "no": 20,
+      "question": "奖助学金什么时候公示，发放到哪里？",
+      "expect_sources": ["奖助学金评定办法"],
+      "expect_keywords": ["第十一周", "公示", "银行"]
+    },
+    {
+      "no": 21,
+      "question": "食堂几点关门？",
+      "expect_sources": [],
+      "expect_keywords": [],
+      "out_of_scope": true
+    },
+    {
+      "no": 22,
+      "question": "学校游泳池的门票多少钱一张？",
+      "expect_sources": [],
+      "expect_keywords": [],
+      "out_of_scope": true
+    },
+    {
+      "no": 23,
+      "question": "校车的发车时刻表是什么？",
+      "expect_sources": [],
+      "expect_keywords": [],
+      "out_of_scope": true
+    }
+  ]
+}
